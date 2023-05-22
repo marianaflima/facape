@@ -1,5 +1,3 @@
-from time import sleep
-
 # Entrada
 pacientes = []
 idade = []
@@ -39,5 +37,5 @@ Deseja inserir um novo paciente?
 
 
 #Saída
-for i in pacientes, idade, indenizaçao:
-    print(f'{pacientes[i]}..........{idade[i]}.........{indenizaçao[i]}')
+for i in pacientes:
+    print(f'{pacientes[i]}..........')
