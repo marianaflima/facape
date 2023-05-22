@@ -11,7 +11,6 @@ print('         UNIMED          ')
 print('=' * 30)
 
 # Processamento
-
 while True:
     yes_no = int(input('''Deseja inserir um novo paciente?
 [0]Sim      [1]Não
@@ -53,5 +52,3 @@ while c != len(pacientes):
     print(f'|   {pacientes[c]}  |   {idade[c]}  |   R${indenizaçao[c]}  |')
     c += 1
 print('====================================')
-
-
