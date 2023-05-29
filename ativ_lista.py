@@ -27,7 +27,7 @@ while True:
 |50 a 69    |  R$ 3500  |
 |70 ou mais |  R$ 5000  |
 =========================
-Digite o valor/idade: '''))
+Digite o valor-idade: '''))
         if idade_paciente <= 12:
             ind_ajustada = ind_base * 1.3
         elif (idade_paciente >= 13) and (idade_paciente <= 49):
