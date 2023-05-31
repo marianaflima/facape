@@ -6,4 +6,8 @@ while True:
     if num == 0:
         break
 
-print(lista)
+x = 0
+print('=' * 30)
+while x < len(lista):
+    print(lista[x])
+    x += 1
